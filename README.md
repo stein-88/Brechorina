@@ -1,4 +1,4 @@
-# Thorin
+# Brechorina
 
 To build this project you will require: NodeJS and Yarn or NPM
 
