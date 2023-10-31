@@ -1,0 +1,50 @@
+@import "../../../stylesheets/_vars.scss";
+
+.headerBg {
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  background-color: darken($color: #ebf1fc, $amount: 2);
+  background-image: url("../../../statics/images/wave3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  .clickBox {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.ArrowPosit {
+  position: absolute;
+  right: -30px;
+  top: -4px;
+  z-index: 2;
+  color: #0075ce;
+}
+
+.fullBox {
+  padding: 2.5rem 10px;
+  background-color: #ebf1fc;
+  color: black;
+  box-shadow: #ebf1fc 0 0 6px;
+
+  &.light {
+    background-color: #f5f5f5;
+    box-shadow: #f5f5f5 0 0 6px;
+
+    &:hover {
+      box-shadow: #f5f5f5 0 0 6px;
+    }
+  }
+
+  &:hover {
+    box-shadow: #ebf1fc 0 0 6px;
+  }
+}
+
+@media (max-width: 575px) {
+  .headerBg {
+    min-height: auto;
+  }
+}

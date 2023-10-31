@@ -1,0 +1,32 @@
+.customInput {
+  width: 100%;
+  color: rgb(99, 99, 99);
+  padding: 15px 22px;
+  outline: 0;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 25px;
+  margin-bottom: 20px;
+
+  &.inVal {
+    color: red;
+    border-color: red;
+
+    &:focus {
+      border-color: red;
+    }
+  }
+
+  &.disabled {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+  }
+
+  &:focus {
+    border-color: #69afe3;
+  }
+
+  &::placeholder {
+    color: #afafaf;
+  }
+}

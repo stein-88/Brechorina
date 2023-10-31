@@ -1,0 +1,29 @@
+@import "../../../stylesheets/_vars.scss";
+
+.ArrowPosit {
+  position: absolute;
+  right: -30px;
+  top: -4px;
+  z-index: 2;
+  color: #0075ce;
+}
+
+.fullBox {
+  padding: 2.5rem 10px;
+  background-color: #ebf1fc;
+  color: black;
+  box-shadow: #ebf1fc 0 0 6px;
+
+  &.light {
+    background-color: #f5f5f5;
+    box-shadow: #f5f5f5 0 0 6px;
+
+    &:hover {
+      box-shadow: #f5f5f5 0 0 6px;
+    }
+  }
+
+  &:hover {
+    box-shadow: #ebf1fc 0 0 6px;
+  }
+}

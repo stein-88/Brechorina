@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <GCFontAwe /> component Should render with minimum props 1`] = `
+<svg
+  aria-hidden="true"
+  className="svg-inline--fa fa-circle "
+  data-icon="circle"
+  data-prefix="far"
+  focusable="false"
+  role="img"
+  style={Object {}}
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"
+    fill="currentColor"
+    style={Object {}}
+  />
+</svg>
+`;

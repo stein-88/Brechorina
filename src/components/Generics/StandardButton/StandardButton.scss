@@ -1,0 +1,91 @@
+.standardButton {
+    cursor: pointer;
+    padding: 10px 4rem;
+    color: white !important;
+    display: inline-block;
+    text-align: center;
+    outline: 0;
+    background-color: #69afe3;
+    border-radius: 25px;
+    border-color: transparent;
+    text-decoration: none !important;
+
+    &.darkBlue {
+        background-color: #0075ce;
+
+        &.disabledButton {
+            cursor: default;
+            background-color: #cacaca;
+            border-color: #cacaca;
+
+            &:hover {
+                background-color: #cacaca;
+            }
+        }
+
+        &:hover {
+            background-color: lighten($color: #0075ce, $amount: 10);
+            border-color: lighten($color: #0075ce, $amount: 10);
+        }
+    }
+
+    &.alternative {
+        background-color: white;
+        border: 1px solid #69afe3;
+        color: #69afe3 !important;
+
+        &.disabledButton {
+            cursor: default;
+            background-color: #cacaca;
+            border-color: #cacaca;
+
+            &:hover {
+                background-color: #cacaca;
+            }
+        }
+
+        &.darkBlue {
+            color: #0075ce !important;
+            border-color: #0075ce;
+
+            &.disabledButton {
+                cursor: default;
+                background-color: #cacaca;
+                border-color: #cacaca;
+
+                &:hover {
+                    background-color: #cacaca;
+                }
+            }
+
+            &:hover {
+                color: white;
+                background-color: lighten($color: #0075ce, $amount: 10);
+                border-color: lighten($color: #0075ce, $amount: 10);
+            }
+        }
+
+        &:hover {
+            background-color: darken($color: #69afe3, $amount: 10);
+            color: white !important;
+        }
+    }
+
+    &.disabledButton {
+        cursor: default;
+        background-color: #cacaca;
+        border-color: #cacaca;
+
+        &:hover {
+            background-color: #cacaca;
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: darken($color: #69afe3, $amount: 10);
+    }
+}

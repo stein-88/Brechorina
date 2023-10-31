@@ -1,0 +1,50 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "@components": "./src/components",
+                    "@container": "./src/container",
+                    "@generics": "./src/components/Generics",
+                    "@constants": "./src/constants",
+                    "@stylesheets": "./src/stylesheets",
+                    "@images": "./src/statics/images",
+                    "@utils": "./src/utils"
+                }
+            }
+        ],
+        "react-hot-loader/babel",
+        [
+            "@babel/plugin-proposal-private-property-in-object",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-private-methods",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "regenerator": true
+            }
+        ]
+    ]
+}

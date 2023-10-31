@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <StandardButton /> component Should render and return a instead of span 1`] = `
+<a
+  className="standardButton   "
+  href="/ciapek"
+  rel="alternate"
+  target="_self"
+>
+  Ciapush
+</a>
+`;
+
+exports[`Test on <StandardButton /> component Should render and return span instead of a 1`] = `
+<span
+  aria-hidden="true"
+  className="standardButton    randomClass"
+  onClick={[Function]}
+>
+  Ciapush
+</span>
+`;

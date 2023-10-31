@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <LoadingContainer /> component Should render without props 1`] = `
+<section
+  className="w-100 h-auto text-center pt-5 mt-5"
+>
+  <object
+    alt="Loading"
+    aria-label="Loading"
+    className="mt-5"
+    data="test-file-stub"
+    height="200"
+    onLoad={[Function]}
+    width="200"
+  />
+</section>
+`;

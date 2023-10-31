@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <CorrectionInput /> component Should render with arabic language props 1`] = `
+<span
+  data-target={true}
+>
+  <div
+    className="correctRight  inValColor"
+    data-target={true}
+  >
+     
+  </div>
+  <div
+    className="correctLeft  inValColor"
+    data-target={true}
+  >
+     
+  </div>
+</span>
+`;
+
+exports[`Test on <CorrectionInput /> component Should render without props 1`] = `
+<span>
+  <div
+    className="correctRight  "
+  >
+     
+  </div>
+  <div
+    className="correctLeft  "
+  >
+     
+  </div>
+</span>
+`;

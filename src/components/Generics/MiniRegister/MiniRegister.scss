@@ -1,0 +1,19 @@
+@import '../../../stylesheets/_vars.scss';
+
+.clickBox {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.inpStyle {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.arrowPosition {
+    right: 15px !important;
+    font-size: 30px;
+    z-index: 3;
+}
+
+.correctSides {
+    top: 17px !important;
+}

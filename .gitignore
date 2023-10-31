@@ -1,0 +1,9 @@
+node_modules
+build
+.env
+.env.clavo
+.DS_Store
+.testresults
+coverage
+.husky
+src/constants/allschemas/*json

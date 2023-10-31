@@ -1,0 +1,45 @@
+@import '../../../stylesheets/_vars.scss';
+
+.carCtrl {
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+
+    &.carNext {
+        right: -2.6%;
+        width: 8%;
+    }
+
+    &.carPrev {
+        left: -4%;
+        width: 8%;
+    }
+
+    .carCommon {
+        width: 50px !important;
+        height: 50px !important;
+
+        &.carLeft {
+            background-image: url("../../../statics/images/carousel-arrow-left.png") !important;
+        }
+
+        &.carRight {
+            background-image: url("../../../statics/images/carousel-arrow-right.png") !important;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .carCtrl {
+        &.carNext {
+            right: -1%;
+            width: 20%;
+        }
+
+        &.carPrev {
+            left: -1%;
+            width: 20%;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "brechorina calculator",
+    "short_name": "brechorina",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#FFF",
+    "theme_color": "#FFF",
+    "gcm_sender_id": "103953800507"
+}

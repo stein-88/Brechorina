@@ -1,0 +1,12 @@
+.dropButton {
+  cursor: pointer;
+  color: #0079d3;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 2.5rem;
+
+  &.invalid {
+    color: red;
+  }
+}

@@ -1,0 +1,25 @@
+.customTooltip {
+  position: absolute;
+  cursor: initial;
+  top: 36px;
+  left: 0;
+  max-width: 300px;
+  background-color: white;
+  display: inline-table;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 0 12px 7px;
+  z-index: 1;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0 12px 7px !important;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: 24px;
+    border: solid 14px transparent;
+    border-bottom-color: white;
+    z-index: 1;
+  }
+}

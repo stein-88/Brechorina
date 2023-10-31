@@ -1,0 +1,150 @@
+.bold {
+    font-family: MyRalewayBold, sans-serif;
+}
+
+.light {
+    font-family: MyRalewayLight, sans-serif;
+}
+
+.minHeight {
+    min-height: 75vh;
+}
+
+.maxHeight {
+    height: 100vh;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fwBold {
+    font-weight: bolder !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.fakeLink {
+    color: #0079d3;
+    cursor: pointer;
+
+    &:hover {
+        color: darken($color: #0079d3, $amount: 5);
+        text-decoration: underline;
+    }
+}
+
+.containerFix {
+    padding: 0 !important;
+}
+
+$borderRadius:(Radius4: 4px,
+    Radius5: 5px,
+    Radius8: 8px,
+    Radius10: 10px,
+    Radius12: 12px,
+    Radius15: 15px,
+    Radius20: 20px,
+    Radius25: 25px,
+    Radius30: 30px,
+    Radius35: 35px,
+    Radius40: 40px,
+    Radius45: 45px,
+    Radius50: 50px,
+    Round: 50%,
+);
+
+@each $key,
+$val in $borderRadius {
+    .gcBd#{$key} {
+        border-radius: #{$val};
+    }
+}
+
+@media (max-width: 576px) {
+    .zrPdMob {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .containerFix {
+        padding: 0 20px !important;
+    }
+}
+
+@media print {
+    .breakOnPrint {
+        page-break-after: always;
+    }
+
+    .printMbNone {
+        margin-bottom: 0 !important;
+    }
+
+    .printFlex1 {
+        flex: 0 0 8.3333% !important;
+        max-width: 8.3333% !important;
+    }
+
+    .printFlex2 {
+        flex: 0 0 16.6667% !important;
+        max-width: 16.6667% !important;
+    }
+
+    .printFlex3 {
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+    }
+
+    .printFlex4 {
+        flex: 0 0 33.3333% !important;
+        max-width: 33.3333% !important;
+    }
+
+    .printFlex5 {
+        flex: 0 0 41.6667% !important;
+        max-width: 41.6667% !important;
+    }
+
+    .printFlex6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .printFlex7 {
+        flex: 0 0 58.3333% !important;
+        max-width: 58.3333% !important;
+    }
+
+    .printFlex8 {
+        flex: 0 0 66.6667% !important;
+        max-width: 66.6667% !important;
+    }
+
+    .printFlex9 {
+        flex: 0 0 75% !important;
+        max-width: 75% !important;
+    }
+
+    .printFlex10 {
+        flex: 0 0 83.3333% !important;
+        max-width: 83.3333% !important;
+    }
+
+    .printFlex11 {
+        flex: 0 0 91.6667% !important;
+        max-width: 91.6667% !important;
+    }
+
+    .printFlex12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .printNone {
+        display: none;
+    }
+}

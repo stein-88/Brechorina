@@ -1,0 +1,34 @@
+.correctRight {
+  width: 20px;
+  position: absolute;
+  height: 25px;
+  right: 0;
+  top: 31px;
+  border: 1px solid #0079d3;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  background-color: white;
+  z-index: 1;
+
+  &.inValColor {
+    border-color: red;
+  }
+}
+
+.correctLeft {
+  width: 20px;
+  position: absolute;
+  height: 25px;
+  top: 31px;
+  border: 1px solid #0079d3;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  background-color: white;
+  z-index: 1;
+
+  &.inValColor {
+    border-color: red;
+  }
+}
